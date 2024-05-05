@@ -1,0 +1,31 @@
+{
+  // "compilerOptions": {
+  //   "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+  //   // "module": "ES6",                                /* Specify what module code is generated. */
+  //   // "outDir": "./dist",
+  //   // "outFile": "main.js",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+  //   // "declaration": true,
+  //   // "declarationDir": "./dist/interfaces",
+  //   // "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+  //   "strict": true,                                      /* Enable all strict type-checking options. */
+  // },
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "stripInternal": true,
+    "newLine": "LF",
+    "lib": [
+      "es5",
+      "DOM"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "dedokit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "build-test": "rollup -c rollup.config.js & node g:\\work_space\\learn\\puremvc\\dedokit\\dist\\dedokit.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.17.2",
+    "ts-node": "^10.9.2"
+  }
+}
